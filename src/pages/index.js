@@ -263,18 +263,14 @@ const index = () => {
           <div>
             <h3>Skills</h3>
             <ul className="text-sm md:text-base list-disc list-inside">
-              <li>
-                Frontend Development using HTML, CSS, JSX and Javascript.
-              </li>
+              <li>Frontend Development using HTML, CSS, JSX and Javascript.</li>
               <li>
                 Backend Development using PHP (Laravel) & Phyton (Django).
               </li>
-              <li>
-                SSG using Gatsbyjs.
-              </li>
+              <li>SSG using Gatsbyjs.</li>
             </ul>
           </div>
-          <div>
+          <div className="space-y-6">
             <h3>Recent Project</h3>
             <div className="flex gap-4">
               <div className="my-1 p-2 text-xs font-semibold rounded-full bg-orange-400 w-max h-max">
@@ -303,26 +299,6 @@ const index = () => {
                 </div>
                 <div>
                   <h5 className="font-semibold flex flex-col">
-                    Catalog App (OctoPoin)
-                    <Link
-                      className="text-sm font-light hover:text-sky-500"
-                      to="https://octopoin.com/"
-                      target="_blank"
-                      noopener
-                      noreferer
-                    >
-                      octopoin.com
-                    </Link>
-                  </h5>
-                  <p className="text-sm md:text-base">
-                    Sebuah aplikasi yang dapat menampilkan barang-barang
-                    dagangan dan juga terdapat <em>content management</em> untuk  menampilkan postingan. Sehingga penjual atau pengusaha dapat memamerkan
-                    barang dagangan secara lebih luas dan dapat menjangkau
-                    pembeli lebih banyak dan juga menampilkan <em>insight</em>.
-                  </p>
-                </div>
-                <div>
-                  <h5 className="font-semibold flex flex-col">
                     Personal Profil (Samsul Muarrif)
                     <Link
                       className="text-sm font-light hover:text-sky-500"
@@ -335,16 +311,47 @@ const index = () => {
                     </Link>
                   </h5>
                   <p className="text-sm md:text-base">
-                    Sebuah personal profil dan blog yang dapat menjadi sebagai wadah <em>self branded</em> dan wadah untuk menyampaikan inspirasi-isnpirasi serta berbagi ilmu.
+                    Sebuah personal profil dan blog yang dapat menjadi sebagai
+                    wadah <em>self branded</em> dan wadah untuk menyampaikan
+                    inspirasi-isnpirasi serta berbagi ilmu.
                   </p>
                 </div>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <div className="my-1 p-2 text-xs font-semibold rounded-full bg-orange-400 w-max h-max">
+                2021
+              </div>
+              <div>
+                <h5 className="font-semibold flex flex-col">
+                  Catalog App (OctoPoin)
+                  <Link
+                    className="text-sm font-light hover:text-sky-500"
+                    to="https://octopoin.com/"
+                    target="_blank"
+                    noopener
+                    noreferer
+                  >
+                    octopoin.com
+                  </Link>
+                </h5>
+                <p className="text-sm md:text-base">
+                  Sebuah aplikasi yang dapat menampilkan barang-barang dagangan
+                  dan juga terdapat <em>content management</em> untuk
+                  menampilkan postingan. Sehingga penjual atau pengusaha dapat
+                  memamerkan barang dagangan secara lebih luas dan dapat
+                  menjangkau pembeli lebih banyak dan juga menampilkan{" "}
+                  <em>insight</em>.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </content>
       <footer className="h-28 flex items-end">
-      <div className="flex justify-center w-full py-6 text-sm text-zinc-600">© 2022 Samsul Muarrif</div>
+        <div className="flex justify-center w-full py-6 text-sm text-zinc-600">
+          © 2022 Samsul Muarrif
+        </div>
       </footer>
     </>
   )
