@@ -98,8 +98,8 @@ const index = () => {
               <h5 className="mx-auto lg:text-base dark:text-white text-zinc-500">
                 Aceh, Indonesia
               </h5>
-              <div className="flex flex-col items-center justify-center">
-                <div className="capitalize py-2 my-2 px-4 lg:mt-8 bg-orange-500 rounded-full mb-8 dark:bg-white text-zinc-50 dark:text-white">
+              <div className="flex flex-col items-center justify-center py-4">
+                <div className="capitalize py-2 mb-4 px-4 mt-6 bg-orange-500 rounded-full dark:bg-white text-zinc-50 dark:text-white">
                   Connect with me
                 </div>
                 <div className="flex gap-4">
