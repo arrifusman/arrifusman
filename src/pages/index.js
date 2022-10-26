@@ -5,8 +5,8 @@ import { StaticImage } from "gatsby-plugin-image"
 const index = () => {
   return (
     <>
-      <main className="dark:bg-gray-800 font-mono bg-white relative md:h-screen">
-        <header className="h-24 sm:h-32 flex items-center z-30 w-full">
+      <main className="dark:bg-gray-800 font-mono bg-white lg:h-screen">
+        <header className="h-24 flex items-center z-30 w-full">
           <div className="container mx-auto px-6 flex items-center justify-between w-full">
             <div className="text-gray-800 dark:text-white font-black text-3xl md:flex items-center hidden">
               <Link to="mailto:samuarrif@gmail.com" target="_blank">
@@ -79,8 +79,8 @@ const index = () => {
             </div>
           </div>
         </header>
-        <div className="flex relative z-20 items-center">
-          <div className="container mx-auto px-6 flex flex-col justify-between items-center relative py-4">
+        <div className="flex items-center h-max">
+          <div className="container mx-auto px-6 flex flex-col justify-between items-center pb-4">
             <div className="flex flex-col">
               <Link to="/" className="mx-auto">
                 <StaticImage
@@ -92,14 +92,14 @@ const index = () => {
               <p className="md:text-3xl my-6 text-green-500 text-center dark:text-white">
                 Hi, I&#x27;m Samsul Muarrif
               </p>
-              <h4 className="max-w-3xl md:text-2xl mx-auto dark:text-white text-zinc-600 text-center py-2">
+              <h4 className="max-w-3xl lg:text-2xl mx-auto dark:text-white text-zinc-600 text-center py-2">
                 Building digital products, brands, and experiences.
               </h4>
-              <h5 className="mx-auto md:text-base dark:text-white text-zinc-500">
+              <h5 className="mx-auto lg:text-base dark:text-white text-zinc-500">
                 Aceh, Indonesia
               </h5>
-              <div className="flex flex-col items-center justify-center mt-4">
-                <div className="capitalize py-2 my-2 px-4 md:mt-16 bg-orange-500 rounded-full mb-8 dark:bg-white text-zinc-50 dark:text-white">
+              <div className="flex flex-col items-center justify-center">
+                <div className="capitalize py-2 my-2 px-4 lg:mt-8 bg-orange-500 rounded-full mb-8 dark:bg-white text-zinc-50 dark:text-white">
                   Connect with me
                 </div>
                 <div className="flex gap-4">
@@ -160,7 +160,7 @@ const index = () => {
         </div>
       </main>
       <content>
-        <div className="text-zinc-600 mx-auto max-w-xs md:max-w-2xl mt-20 space-y-8">
+        <div className="text-zinc-600 mx-auto max-w-xs md:max-w-2xl space-y-8 mt-4">
           <div>
             <h3>Languages</h3>
             <p className="text-sm md:text-base">
@@ -263,7 +263,7 @@ const index = () => {
           <div>
             <h3>Skills</h3>
             <ul className="text-sm md:text-base list-disc list-inside">
-              <li>Frontend Development using HTML, CSS, JSX and Javascript.</li>
+              <li>Frontend Development using HTML, CSS (Tailwindcss), JSX (Gatsbyjs) and Javascript (Vuejs).</li>
               <li>
                 Backend Development using PHP (Laravel) & Phyton (Django).
               </li>
@@ -342,6 +342,29 @@ const index = () => {
                   memamerkan barang dagangan secara lebih luas dan dapat
                   menjangkau pembeli lebih banyak dan juga menampilkan{" "}
                   <em>insight</em>.
+                </p>
+              </div>
+            </div>
+            <div className="flex gap-4">
+              <div className="my-1 p-2 text-xs font-semibold rounded-full bg-orange-400 w-max h-max">
+                2020
+              </div>
+              <div>
+                <h5 className="font-semibold flex flex-col">
+                  Blog App (Perahu Media)
+                  <Link
+                    className="text-sm font-light hover:text-sky-500"
+                    to="https://perahumedia.herokuapp.com/"
+                    target="_blank"
+                    noopener
+                    noreferer
+                  >
+                    perahumedia.herokuapp.com
+                  </Link>
+                </h5>
+                <p className="text-sm md:text-base">
+                  Sebuah blog sederhana yang dibuat menggunakan Django
+                  Framework.
                 </p>
               </div>
             </div>
