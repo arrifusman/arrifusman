@@ -262,8 +262,11 @@ const index = () => {
           </div>
           <div>
             <h3>Skills</h3>
-            <ul className="text-sm md:text-base list-disc list-inside">
-              <li>Frontend Development using HTML, CSS (Tailwindcss), JSX (Gatsbyjs) and Javascript (Vuejs).</li>
+            <ul className="text-sm md:text-base list-disc list-outside pl-4">
+              <li>
+                Frontend Development using HTML, CSS (Tailwindcss), JSX
+                (Gatsbyjs) and Javascript (Vuejs).
+              </li>
               <li>
                 Backend Development using PHP (Laravel) & Phyton (Django).
               </li>
@@ -279,7 +282,29 @@ const index = () => {
               <div className="space-y-4 my-1">
                 <div>
                   <h5 className="font-semibold flex flex-col">
-                    Catalog App (RidsBlades)
+                    Open Journal Systems (Journal Jeumpa)
+                    <Link
+                      className="text-sm font-light hover:text-sky-500"
+                      to="https://ejurnalunsam.id/index.php/jempa/index"
+                      target="_blank"
+                      noopener
+                      noreferer
+                    >
+                      ejurnalunsam.id/index.php/jempa/index
+                    </Link>
+                  </h5>
+                  <p className="text-sm md:text-base">
+                    Sebuah aplikasi yang dapat memanajemen jurnal-jurnal secara
+                    lebih rapi dan dengan alur kerja yang sudah terstruktur.
+                    Aplikasi ini memudahkan penulis untuk mempublikasikan
+                    jurnalnya dan juga memudahkan publisher dalam mengelola
+                    jurnal. Aplikasi ini dibangun dengan menggunakan cms OJS
+                    (Open Journal Systems).
+                  </p>
+                </div>
+                <div>
+                  <h5 className="font-semibold flex flex-col">
+                    Catalog App (Rids Blades)
                     <Link
                       className="text-sm font-light hover:text-sky-500"
                       to="https://ridsblades.com/"
@@ -324,7 +349,7 @@ const index = () => {
               </div>
               <div>
                 <h5 className="font-semibold flex flex-col">
-                  Catalog App (OctoPoin)
+                  Catalog App (Octo Poin)
                   <Link
                     className="text-sm font-light hover:text-sky-500"
                     to="https://octopoin.com/"
