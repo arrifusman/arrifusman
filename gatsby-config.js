@@ -6,6 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Samsul Muarrif`,
+    siteUrl: `http://arifusman.tech`,
+    description: `Personal portfolio of Samsul Muarrif`,
+  },
   plugins: [
     "gatsby-plugin-postcss",
     `gatsby-plugin-image`,

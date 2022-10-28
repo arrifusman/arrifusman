@@ -90,7 +90,7 @@ const index = () => {
                 />
               </Link>
               <p className="md:text-3xl my-6 text-green-500 text-center dark:text-white">
-                Hi, I&#x27;m Samsul Muarrif
+                Hi, I&#x27;m <Link to="https://samsulmuarrif.me">Samsul Muarrif</Link>
               </p>
               <h4 className="max-w-3xl lg:text-2xl mx-auto dark:text-white text-zinc-600 text-center py-2">
                 Building digital products, brands, and experiences.
