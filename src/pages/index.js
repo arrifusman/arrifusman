@@ -298,12 +298,13 @@ const index = () => {
                     lebih rapi dan dengan alur kerja yang sudah terstruktur.
                     Aplikasi ini memudahkan penulis untuk mempublikasikan
                     jurnalnya dan juga memudahkan publisher dalam mengelola
-                    jurnal. Aplikasi ini dibangun dengan menggunakan cms OJS &nbsp;
+                    jurnal. Aplikasi ini dibangun dengan menggunakan cms OJS
+                    &nbsp;
                     <Link
                       className="hover:text-sky-500"
                       to="https://pkp.sfu.ca/ojs/"
                     >
-                       (Open Journal Systems)
+                      (Open Journal Systems)
                     </Link>
                     .
                   </p>
