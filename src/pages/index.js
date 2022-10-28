@@ -294,12 +294,18 @@ const index = () => {
                     </Link>
                   </h5>
                   <p className="text-sm md:text-base">
-                    Sebuah aplikasi yang dapat memanajemen jurnal-jurnal secara
+                    Sebuah aplikasi untuk mengelola jurnal-jurnal ilmiah secara
                     lebih rapi dan dengan alur kerja yang sudah terstruktur.
                     Aplikasi ini memudahkan penulis untuk mempublikasikan
                     jurnalnya dan juga memudahkan publisher dalam mengelola
-                    jurnal. Aplikasi ini dibangun dengan menggunakan cms OJS
-                    (Open Journal Systems).
+                    jurnal. Aplikasi ini dibangun dengan menggunakan cms OJS &nbsp;
+                    <Link
+                      className="hover:text-sky-500"
+                      to="https://pkp.sfu.ca/ojs/"
+                    >
+                       (Open Journal Systems)
+                    </Link>
+                    .
                   </p>
                 </div>
                 <div>
