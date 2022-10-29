@@ -21,6 +21,7 @@
     "@babel/eslint-parser": "^7.19.1",
     "babel": "^6.23.0",
     "babel-eslint": "^10.1.0",
+    "daisyui": "^2.36.1",
     "eslint": "^8.26.0",
     "gatsby": "^4.24.4",
     "gatsby-plugin-image": "^2.24.0",
